@@ -17,6 +17,5 @@ steps:
 
 - script: |
     npm install
-    npm run lint 
-    npm run slint
     npm run build
+  displayName: 'Install Node.js'
